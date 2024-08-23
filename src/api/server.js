@@ -1,6 +1,6 @@
 // REST API integration
-export const BASE_SERVER_URL = "http://localhost:5000";
-// export const BASE_SERVER_URL = "https://happy-plum-backend-1-j2s6.onrender.com";
+// export const BASE_SERVER_URL = "http://localhost:5000";
+export const BASE_SERVER_URL = "https://happy-plum-backend-1-j2s6.onrender.com";
 // ************************************ Web Api ***************************************
 
 //manage user
