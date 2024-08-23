@@ -1,68 +1,3 @@
-// import React, { useState } from 'react';
-// import './StudentCurriculum.css'; // Import the CSS file for styling
-
-// // Sample content for each tab based on the level
-// const content = {
-//   noviceLow: {
-//     interpretative: "Novice Low interpretative skills description...",
-//     interpersonal: "Novice Low interpersonal skills description...",
-//     presentational: "Novice Low presentational skills description...",
-//     intercultural: "Novice Low intercultural skills description..."
-//   },
-//   // Add other levels as needed
-// };
-
-// const StudentCurriculum = () => {
-//   const [level, setLevel] = useState('noviceLow'); // Default level
-//   const [activeTab, setActiveTab] = useState('interpretative'); // Default tab
-
-//   const handleLevelChange = (event) => {
-//     setLevel(event.target.value);
-//   };
-
-//   const handleTabChange = (tab) => {
-//     setActiveTab(tab);
-//   };
-
-//   return (
-//     <div className="student-curriculum">
-//       <h1 className="title">Student Curriculum</h1>
-
-//       {/* Dropdown to select the level */}
-//       <div className="level-selector">
-//         <label htmlFor="level-select">Select Level:</label>
-//         <select id="level-select" onChange={handleLevelChange} value={level}>
-//           <option value="noviceLow">Novice Low</option>
-//           {/* Add other options as needed */}
-//         </select>
-//       </div>
-
-//       {/* Tabs to switch between interpretative, interpersonal, presentational, and intercultural */}
-//       <div className="tabs">
-//         {['interpretative', 'interpersonal', 'presentational', 'intercultural'].map(tab => (
-//           <button
-//             key={tab}
-//             onClick={() => handleTabChange(tab)}
-//             className={`tab-button ${activeTab === tab ? 'active' : ''}`}
-//           >
-//             {tab.charAt(0).toUpperCase() + tab.slice(1)}
-//           </button>
-//         ))}
-//       </div>
-
-//       {/* Display content based on the selected level and tab */}
-//       <div className="content">
-//         <h2 className="content-title">
-//           {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}
-//         </h2>
-//         <p>{content[level][activeTab]}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default StudentCurriculum;
-
 import React, { useState } from 'react';
 import './StudentCurriculum.css'; // Import the CSS file for styling
 
@@ -133,6 +68,8 @@ const StudentCurriculum = () => {
   return (
     <div className="student-curriculum">
       <h1 className="title">Student Curriculum</h1>
+
+      <h1>Current Level: {level} </h1>
 
       {/* Dropdown to select the level */}
       <div className="level-selector">
