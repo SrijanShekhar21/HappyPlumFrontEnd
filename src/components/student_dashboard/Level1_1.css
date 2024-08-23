@@ -1,0 +1,53 @@
+.Level1_1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .level1-1-page {
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  .level1-1-page h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ff6347;
+  }
+  
+  .level1-1-page p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .level1-1-page .btn-primary {
+    background-color: #ff6347;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .level1-1-page .btn-primary:hover {
+    background-color: #e5533b;
+  }
+  
+  .vocabulary-section .flash-card {
+    background-color: #fff;
+    border: 1px solid #ff6347;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .vocabulary-section .flash-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .drag-drop-section .drop-area {
+    transition: border-color 0.3s ease;
+  }
+  
+  .drag-drop-section .drop-area:hover {
+    border-color: #e5533b;
+  }
+  

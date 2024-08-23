@@ -19,6 +19,7 @@
     "dotenv": "^16.4.5",
     "https-browserify": "^1.0.0",
     "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
     "react-bootstrap": "^2.10.4",
     "react-chartjs-2": "^5.2.0",
     "react-dnd": "^16.0.1",

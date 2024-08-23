@@ -21,7 +21,7 @@ const Lessons = () => {
           title: "Level 1.1",
           description: "Introduction to Chinese (Pinyin,tones)",
           color: "#ff0000",
-          link: "/"
+          link: "/level1_1"
         },
         {
           image: <img src={require('../../images/lesson1.2.JPG')} alt="conversation" style={{ 

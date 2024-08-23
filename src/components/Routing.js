@@ -48,6 +48,7 @@ import ProgressReports from "./teacher_dashboard/ProgressReports";
 import TeacherHome from "./teacher_dashboard/TeacherHome";
 import ClassList from "./teacher_dashboard/ClassList";
 import StudentChats from "./student_dashboard/StudentChats";
+import Level1_1 from "./student_dashboard/Level1_1";
 
 // import Assignments from "./teacher_dashboard/Communication";
 const Routing = () => {
@@ -101,6 +102,7 @@ const Routing = () => {
           <Route index element={<HomePage/>} />
           {/* login page & register */}
           <Route path="/login" element={<Login/>}/>
+          <Route path="/level1_1" element={<Level1_1/>}/>
           <Route path="/register" element={<Register/>}/>
         </Route>
           <Route path="/dashboard" element={<MainLayout/>} >
