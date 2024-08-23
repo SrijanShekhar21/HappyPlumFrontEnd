@@ -1,0 +1,31 @@
+.performanceStudentDiv {
+    padding: 20px;
+  }
+  
+  .h1Student {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testReportDiv, .courseCompletionDiv {
+    margin-bottom: 40px;
+  }
+  
+  .progressBar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: #76c7c0;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

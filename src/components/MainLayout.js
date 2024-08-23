@@ -403,6 +403,14 @@ const MainLayout = (props) => {
                   </Nav.Link>
 
                   <Nav.Link
+                    onClick={() => navigate("/dashboard/student-performance-stats")}
+                    className="text-white d-flex align-items-center"
+                  >
+                    <FaBullseye className="me-2" />
+                    {open && "Performance"}
+                  </Nav.Link>
+
+                  <Nav.Link
                     onClick={() => navigate("/dashboard/review-sheet")}
                     className="text-white d-flex align-items-center"
                   >

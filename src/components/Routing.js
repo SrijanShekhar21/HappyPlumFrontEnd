@@ -49,6 +49,7 @@ import TeacherHome from "./teacher_dashboard/TeacherHome";
 import ClassList from "./teacher_dashboard/ClassList";
 import StudentChats from "./student_dashboard/StudentChats";
 import Level1_1 from "./student_dashboard/Level1_1";
+import PerformanceStudent from "./student_dashboard/PerformanceStudent";
 
 // import Assignments from "./teacher_dashboard/Communication";
 const Routing = () => {
@@ -116,6 +117,7 @@ const Routing = () => {
           <Route path={'/dashboard/test-assessment/result'} element={<Result/>}/>
           <Route path={'/dashboard/goal'} element={<Goal/>}/>
           <Route path={'/dashboard/student-chat'} element={<StudentChats/>}/>
+          <Route path={'/dashboard/student-performance-stats'} element={<PerformanceStudent/>}/>
           <Route path={'/dashboard/student-curriculum'} element={<StudentCurriculum/>}/>
           <Route path={'/dashboard/review-sheet'} element={<ReviewSheet/>}/>
           <Route path={'/dashboard/rubric'} element={<Rubric/>}/>
